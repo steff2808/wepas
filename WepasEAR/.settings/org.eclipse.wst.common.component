@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="WepasEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="Wepas.jar" deploy-path="/" handle="module:/resource/Wepas/Wepas">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="WepasClient.jar" deploy-path="/" handle="module:/resource/WepasClient/WepasClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="WepasWeb.war" deploy-path="/" handle="module:/resource/WepasWeb/WepasWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="WepasJPA.jar" deploy-path="/lib" handle="module:/resource/WepasJPA/WepasJPA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

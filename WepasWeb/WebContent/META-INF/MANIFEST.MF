@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Specification-Vendor: wepas.de
+Implementation-Vendor: wepas.de
+Build-By: steff
+Class-Path: 
+Name: WepasWeb
+Implementation-Version: 2.1.0 vom 23.02.2013
+Implementation-Title: Wepas
+Specification-Version: 1.0
+Specification-Title: Wepas
+

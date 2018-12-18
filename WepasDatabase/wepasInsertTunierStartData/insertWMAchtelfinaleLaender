@@ -1,0 +1,22 @@
+INSERT INTO `en_verein` (`id_verein`, `at_verein_name`, `at_verein_kurz`, `at_verein_regex`, `at_verein_sp`, `at_verein_si`, `at_verein_un`, `at_verein_ni`, `at_verein_tg`, `at_verein_tk`, `at_verein_punke`, `at_verein_hsp`, `at_verein_hsi`, `at_verein_hun`, `at_verein_hni`, `at_verein_htg`, `at_verein_htk`, `at_verein_hpunke`, `at_verein_asp`, `at_verein_asi`, `at_verein_aun`, `at_verein_ani`, `at_verein_atg`, `at_verein_atk`, `at_verein_apunke`, `at_verein_hrsp`, `at_verein_hrsi`, `at_verein_hrun`, `at_verein_hrni`, `at_verein_hrtg`, `at_verein_hrtk`, `at_verein_hrpunke`, `at_verein_rrsp`, `at_verein_rrsi`, `at_verein_rrun`, `at_verein_rrni`, `at_verein_rrtg`, `at_verein_rrtk`, `at_verein_rrpunke`, `at_verein_form`) VALUES
+(51, 'SiegerE (FRA16/ECU13/SWI30)', 	'xxx', '(.*xxx.*)', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'),
+(52, 'ZweiterF (NIG27/ARG2/IRA21)', 	'xxx', '(.*xxx.*)', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'),
+(53, 'SiegerF (ARG2/NIG27)', 			'xxx', '(.*xxx.*)', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'),
+(54, 'ZweiterE (ECU13/FRA16/SWI30)',	'xxx', '(.*xxx.*)', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'),
+(55, 'SiegerG (DEU17/USA32)',			'xxx', '(.*xxx.*)', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'),
+(56, 'ZweiterH (ALG4/BEL1/RUS29)',		'xxx', '(.*xxx.*)', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'),
+(57, 'SiegerH (BEL4/ALG1)',				'xxx', '(.*xxx.*)', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'),
+(58, 'ZweiterG (USA32/DEU17/GHA18)', 	'xxx', '(.*xxx.*)', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
+
+INSERT INTO `en_spieltag` (`id_spieltag`, `fk_spieltag_einstellung`, `at_spieltag_nummer`, `at_spieltag_text`, `at_spieltag_start`, `at_spieltag_ende`, `at_spieltag_paarungen`, `at_spieltag_supertipps`, `at_spieltag_is_started`, `at_spieltag_is_finished`, `at_spieltag_is_duty`, `at_spieltag_kosten`, `at_spieltag_einsatz`) VALUES
+(4, 44, 4, 'Achtelfinale<br>', '2014-06-28', '2014-07-01', 8, 2, 0, 0, 1, 0.00, 0.00);
+
+INSERT INTO `en_spiel` (`id_spiel`, `fk_spiel_verein_heim`, `fk_spiel_verein_gast`, `fk_spiel_spieltag`, `fk_spiel_einstellung`, `at_spiel_tore_heim`, `at_spiel_tore_gast`, `at_spiel_is_played`, `at_spiel_anpfiff`) VALUES
+( 49,  6,  7, 4, 33, 0, 0, 0, '2014-06-28 18:00:00'),
+( 50, 10, 31, 4, 33, 0, 0, 0, '2014-06-28 22:00:00'),
+( 51, 26, 25, 4, 33, 0, 0, 0, '2014-06-29 18:00:00'),
+( 52, 11, 19, 4, 33, 0, 0, 0, '2014-06-29 22:00:00'),
+( 53, 51, 52, 4, 33, 0, 0, 0, '2014-06-30 18:00:00'),
+( 54, 55, 56, 4, 33, 0, 0, 0, '2014-06-30 22:00:00'),
+( 55, 53, 54, 4, 33, 0, 0, 0, '2014-07-01 18:00:00'),
+( 56, 57, 58, 4, 33, 0, 0, 0, '2014-07-01 22:00:00');

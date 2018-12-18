@@ -1,0 +1,98 @@
+package de.wepas.lifegoals;
+
+import javax.annotation.Resource;
+import javax.ejb.Singleton;
+import javax.ejb.Timeout;
+import javax.ejb.Timer;
+import javax.ejb.TimerService;
+
+@Singleton
+public class LifegoalsBean implements LifegoalsBeanLocal
+{
+	@Resource
+	TimerService timerService;
+	
+	public static final String KOMMANDO = "HSP";
+	
+	public void startLifegoals()
+	{
+		System.out.println("-->Start Lifegoals");
+		timerService.createTimer(1 * 1000, 1 * 1000, KOMMANDO);
+	}
+	
+	public void stopLifegoals()
+	{
+		System.out.println("-->Stop Lifegoals");
+		for(Object obj : timerService.getTimers())
+		{
+			Timer timer = (Timer) obj;
+			String bez = (String) timer.getInfo();
+			if (bez.equals(KOMMANDO))
+			{
+				timer.cancel();
+			}
+		}
+	}
+	
+	@Timeout
+	public void timeout(Timer timer)
+	{
+		new LifeTicker();
+	}
+	
+}
+
+
+package de.wepas.lifegoals;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class LifeTicker
+{
+	private static Log log = LogFactory.getLog(LifeTicker.class);
+	
+	public LifeTicker()
+	{
+		super();
+		try
+		{
+			URL url = new URL("http://stern.sportal.de/stern/module/l/1bundesliga.html");
+			Reader is = new InputStreamReader(url.openStream());
+			BufferedReader in = new BufferedReader(is);
+			for(String s; (s=in.readLine()) != null;)
+			{
+				if(s.contains("Bremen"))  //Dat ist jetzt zum Test
+				{
+					System.out.println(s);
+					log.info(s);
+				}
+			}
+		}
+		catch(MalformedURLException e)
+		{
+			log.error("MalformedURLException in Zeile " + e.getMessage());
+		}
+		catch(IOException e)
+		{
+			log.error("IOException in Zeile " + e.getMessage());
+		}
+		catch(Exception e)
+		{
+			log.error("Exception in Zeile " + e.getMessage());
+		}
+	}
+	
+	public static void main(String[] args)
+	{
+		new LifeTicker();
+	}
+}
+

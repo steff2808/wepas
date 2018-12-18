@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="WepasJPA">
+		<jta-data-source>java:jboss/datasources/WepasDS</jta-data-source>
+		<class>de.wepas.jpa.EnEinstellung</class>
+		<class>de.wepas.jpa.EnForum</class>
+		<class>de.wepas.jpa.EnSpiel</class>
+		<class>de.wepas.jpa.EnSpieltag</class>
+		<class>de.wepas.jpa.EnTipp</class>
+		<class>de.wepas.jpa.EnTipper</class>
+		<class>de.wepas.jpa.EnVerein</class>
+		<class>de.wepas.jpa.EnWette</class>
+	</persistence-unit>
+</persistence>

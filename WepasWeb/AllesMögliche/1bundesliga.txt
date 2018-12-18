@@ -1,0 +1,112 @@
+<html>
+<head>
+<link href="/stern/module/css/style-l.css" rel="stylesheet" type="text/css" />
+
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/stern/module/css/style-l-ie7.css" /><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/stern/module/css/style-l-ie8.css" /><![endif]-->
+<!--[if IE 9]><link rel="stylesheet" type="text/css" href="/stern/module/css/style-l-ie9.css" /><![endif]-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+<script type='text/javascript' src='/stern/module/js/l.js'></script>
+</head>
+<body>
+<div class="stern_modul_l stern_modul_l_1bundesliga" onclick="stern_modul_l_conf('1bundesliga');">   
+    <div class="stern_modul_l_headline">
+        <div class="stern_modul_l_headline_text">1. Fußball-Bundesliga (20. Spieltag)</div>
+        <div class="stern_modul_l_headline_link"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html" class="stern_modul_l_headline_link">Zum Liveticker</a></div>
+        <div class="stern_modul_l_clear"></div>
+    </div>
+    <div class="stern_modul_l_clear"></div>
+
+    <div class="stern_modul_l_games" id="stern_modul_games">
+
+            <!-- stop -->
+        <div class="stern_modul_l_game_row">
+            <div class="stern_modul_l_game_dot_grey"></div>
+            <div class="stern_modul_l_game_team_home"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/1-fc-nuernberg/borussia-dortmund/2012-02-03.html" class="stern_modul_l_game_link" target="_parent">1. FC Nürnberg</a></div>            
+            <div class="stern_modul_l_game_team_home_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/1-fc-nuernberg/borussia-dortmund/2012-02-03.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/15.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_score"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/1-fc-nuernberg/borussia-dortmund/2012-02-03.html" class="stern_modul_l_game_link" target="_parent">0 : 2</a></div>            <div class="stern_modul_l_game_team_away_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/1-fc-nuernberg/borussia-dortmund/2012-02-03.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/1.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_away"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/1-fc-nuernberg/borussia-dortmund/2012-02-03.html" class="stern_modul_l_game_link" target="_parent">Borussia Dortmund</a></div>
+            <div class="stern_modul_l_clear"></div>
+        </div>
+        <!-- stop -->
+        <div class="stern_modul_l_game_row">
+            <div class="stern_modul_l_game_dot_grey"></div>
+            <div class="stern_modul_l_game_team_home"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/bayer-leverkusen/vfb-stuttgart/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">Bayer Leverkusen</a></div>            
+            <div class="stern_modul_l_game_team_home_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/bayer-leverkusen/vfb-stuttgart/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/2.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_score"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/bayer-leverkusen/vfb-stuttgart/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">2 : 2</a></div>            <div class="stern_modul_l_game_team_away_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/bayer-leverkusen/vfb-stuttgart/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/8.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_away"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/bayer-leverkusen/vfb-stuttgart/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">VfB Stuttgart</a></div>
+            <div class="stern_modul_l_clear"></div>
+        </div>
+        <!-- stop -->
+        <div class="stern_modul_l_game_row">
+            <div class="stern_modul_l_game_dot_grey"></div>
+            <div class="stern_modul_l_game_team_home"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/fc-schalke-04/fsv-mainz-05/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">FC Schalke 04</a></div>            
+            <div class="stern_modul_l_game_team_home_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/fc-schalke-04/fsv-mainz-05/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/5.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_score"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/fc-schalke-04/fsv-mainz-05/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">1 : 1</a></div>            <div class="stern_modul_l_game_team_away_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/fc-schalke-04/fsv-mainz-05/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/22.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_away"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/fc-schalke-04/fsv-mainz-05/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">FSV Mainz 05</a></div>
+            <div class="stern_modul_l_clear"></div>
+        </div>
+        <!-- stop -->
+        <div class="stern_modul_l_game_row">
+            <div class="stern_modul_l_game_dot_grey"></div>
+            <div class="stern_modul_l_game_team_home"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/1899-hoffenheim/fc-augsburg/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">1899 Hoffenheim</a></div>            
+            <div class="stern_modul_l_game_team_home_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/1899-hoffenheim/fc-augsburg/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/67.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_score"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/1899-hoffenheim/fc-augsburg/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">2 : 2</a></div>            <div class="stern_modul_l_game_team_away_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/1899-hoffenheim/fc-augsburg/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/73.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_away"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/1899-hoffenheim/fc-augsburg/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">FC Augsburg</a></div>
+            <div class="stern_modul_l_clear"></div>
+        </div>
+        <!-- stop -->
+        <div class="stern_modul_l_game_row">
+            <div class="stern_modul_l_game_dot_grey"></div>
+            <div class="stern_modul_l_game_team_home"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/vfl-wolfsburg/moenchengladbach/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">VfL Wolfsburg</a></div>            
+            <div class="stern_modul_l_game_team_home_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/vfl-wolfsburg/moenchengladbach/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/10.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_score"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/vfl-wolfsburg/moenchengladbach/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">0 : 0</a></div>            <div class="stern_modul_l_game_team_away_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/vfl-wolfsburg/moenchengladbach/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/12.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_away"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/vfl-wolfsburg/moenchengladbach/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">Mönchengladbach</a></div>
+            <div class="stern_modul_l_clear"></div>
+        </div>
+        <!-- stop -->
+        <div class="stern_modul_l_game_row">
+            <div class="stern_modul_l_game_dot_grey"></div>
+            <div class="stern_modul_l_game_team_home"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/hertha-bsc-berlin/hannover-96/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">Hertha BSC Berlin</a></div>            
+            <div class="stern_modul_l_game_team_home_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/hertha-bsc-berlin/hannover-96/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/4.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_score"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/hertha-bsc-berlin/hannover-96/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">0 : 1</a></div>            <div class="stern_modul_l_game_team_away_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/hertha-bsc-berlin/hannover-96/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/16.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_away"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/hertha-bsc-berlin/hannover-96/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">Hannover 96</a></div>
+            <div class="stern_modul_l_clear"></div>
+        </div>
+        <!-- stop -->
+        <div class="stern_modul_l_game_row">
+            <div class="stern_modul_l_game_dot_green"></div>
+            <div class="stern_modul_l_game_team_home"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/hamburger-sv/bayern-muenchen/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">Hamburger SV</a></div>            
+            <div class="stern_modul_l_game_team_home_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/hamburger-sv/bayern-muenchen/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/11.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_score"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/hamburger-sv/bayern-muenchen/2012-02-04.html" class="stern_modul_l_game_link_red" target="_parent">1 : 1</a></div>            <div class="stern_modul_l_game_team_away_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/hamburger-sv/bayern-muenchen/2012-02-04.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/3.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_away"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/hamburger-sv/bayern-muenchen/2012-02-04.html" class="stern_modul_l_game_link" target="_parent">Bayern München</a></div>
+            <div class="stern_modul_l_clear"></div>
+        </div>
+        <!-- stop -->
+        <div class="stern_modul_l_game_row">
+            <div class="stern_modul_l_game_dot_grey"></div>
+            <div class="stern_modul_l_game_team_home"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/sc-freiburg/werder-bremen/2012-02-05.html" class="stern_modul_l_game_link_grey" target="_parent">SC Freiburg</a></div>            
+            <div class="stern_modul_l_game_team_home_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/sc-freiburg/werder-bremen/2012-02-05.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/19.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_score"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/sc-freiburg/werder-bremen/2012-02-05.html" class="stern_modul_l_game_link_grey" target="_parent">So</a></div>            <div class="stern_modul_l_game_team_away_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/sc-freiburg/werder-bremen/2012-02-05.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/6.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_away"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/sc-freiburg/werder-bremen/2012-02-05.html" class="stern_modul_l_game_link_grey" target="_parent">Werder Bremen</a></div>
+            <div class="stern_modul_l_clear"></div>
+        </div>
+        <!-- stop -->
+        <div class="stern_modul_l_game_row">
+            <div class="stern_modul_l_game_dot_grey"></div>
+            <div class="stern_modul_l_game_team_home"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/kaiserslautern/1-fc-koeln/2012-02-05.html" class="stern_modul_l_game_link_grey" target="_parent">Kaiserslautern</a></div>            
+            <div class="stern_modul_l_game_team_home_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/kaiserslautern/1-fc-koeln/2012-02-05.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/7.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_score"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/kaiserslautern/1-fc-koeln/2012-02-05.html" class="stern_modul_l_game_link_grey" target="_parent">So</a></div>            <div class="stern_modul_l_game_team_away_logo"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/kaiserslautern/1-fc-koeln/2012-02-05.html" class="stern_modul_l_game_link" target="_parent"><img src="/photos/fussball/logos/20x20/20.png" class="stern_modul_l_game_logo"></a></div>
+            <div class="stern_modul_l_game_team_away"><a href="http://www.stern.de/sport/fussball/bundesliga-liveticker-der-griff-nach-der-schale-568078.html?url=/fussball/1bundesliga/kaiserslautern/1-fc-koeln/2012-02-05.html" class="stern_modul_l_game_link_grey" target="_parent">1. FC Köln</a></div>
+            <div class="stern_modul_l_clear"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+stern_modul_pos_it('1bundesliga');
+</script>
+
+</body>
+</html>         

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Vendor: wepas.de
+Implementation-Title: Wepas
+Implementation-Version: 2.1.0 vom 23.02.2013
+Class-Path: WepasClient.jar
+Specification-Vendor: wepas.de
+Name: Wepas
+Specification-Title: Wepas
+Specification-Version: 1.0
+Build-By: steff
+

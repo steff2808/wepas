@@ -1,0 +1,5 @@
+Spieltage erfassen
+Spiele für Spieltage erfassen
+Tipper Punkte löschen
+Alle Tipps löschen
+Einstellung ändern

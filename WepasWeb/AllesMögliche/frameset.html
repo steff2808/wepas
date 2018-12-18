@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--IE7 in Quirksmode bitte--><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+<title>Dynamisches Frameset</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="author" content="Gernot Back" />
+<script type="text/javascript">
+//<![CDATA[
+var aktFrame = "untRe";
+
+function init () {
+  untLi.document.getElementById('cont').style.top = "-44px";
+  obRe.document.getElementById('cont').style.left = "-167px";
+  untRe.document.getElementById('cont').style.left = "-167px";
+  untRe.document.getElementById('cont').style.top = "-44px";
+  balken();
+  scrollen();
+  for(i = 0; i < frames.length; i++) {
+      frames[i].document.onkeydown=MyFocus;
+  }
+  MyFocus();
+}
+
+function MyFocus(){
+  //alert();
+  aktFrame = "untRe";
+  untRe.focus();
+}
+
+function balken () {
+  if(document.all) {
+    var breite = untRe.document.body.clientWidth;
+    var hoehe = untRe.document.body.clientHeight;
+    breite = breite + ',*';
+    hoehe = '44,' + hoehe + ',*';
+    document.all.oben.setAttribute('cols', breite ,'false');
+    document.all.links.setAttribute('rows', hoehe ,'false');
+  } else {
+    var breite = 0;
+    while(untRe.outerWidth<obRe.outerWidth) {
+      breite++;
+      br = '*,' + breite;
+      document.getElementById('oben').setAttribute('cols', br ,'false');
+    }
+    var hoehe = 0;
+    while(untRe.outerHeight<untLi.outerHeight) {
+      hoehe++;
+      ho = '44,*,' + hoehe;
+      document.getElementById('links').setAttribute('rows', ho ,'false');
+    }
+  }
+}
+
+function hor(MyFrame) {
+  if(document.all)
+    return MyFrame.document.body.scrollLeft;
+  else
+    return MyFrame.pageXOffset;
+}
+
+function ver(MyFrame) {
+  if(document.all)
+    return MyFrame.document.body.scrollTop;
+  else
+    return MyFrame.pageYOffset;
+}
+
+var sc; // Deklaration nur bei Mozilla-Workaround erforderlich (optional)
+
+function scrollen () {
+
+  switch (aktFrame) {
+
+   case "untRe":
+     obRe.scrollTo(hor(untRe), 0);
+     untLi.scrollTo(0, ver(untRe));
+     break;
+
+   case "untLi":
+     untRe.scrollTo(hor(untRe), ver(untLi));
+     obRe.scrollTo(hor(untRe), 0);
+     untLi.scrollTo(0, ver(untLi));
+     break;
+
+   case "obRe":
+     untRe.scrollTo(hor(obRe), ver(untRe));
+     untLi.scrollTo(0, ver(untRe));
+     obRe.scrollTo(hor(obRe), 0);
+     break;
+
+   case "obLi":
+     untRe.scrollTo(hor(obRe), ver(untLi));
+     obLi.scrollTo(0, 0);
+     break;
+
+   default:
+     obRe.scrollTo(hor(untRe), 0);
+     untLi.scrollTo(0, ver(untRe));
+     aktFrame="untRe";
+  }
+  // Beginn Mozilla Workaround Teil2 (optional)
+  if(!document.all&&!document.layers) {
+    sc = window.setTimeout("scrollen()", 83);
+  }
+  // Ende Mozilla Workaround Teil2
+}
+
+window.onresize = function () { balken(); }
+
+//]]>
+</script>
+</head>
+<frameset onload="init()" cols="178,*">
+   <frameset id="links" rows="44,*,13">
+     <frame marginheight="0" marginwidth="10" scrolling="no" name="obLi" src="tabelle.html"  />
+     <frame marginheight="0" marginwidth="10" scrolling="no" name="untLi" src="tabelle.html" />
+     <frame scrolling="no" src="leer.html" />
+   </frameset>
+   <frameset rows="44,*">
+     <frameset id="oben" cols="*,13">
+        <frame marginheight="0" marginwidth="10" scrolling="no" name="obRe"  src="tabelle.html" />
+        <frame scrolling="no" src="leer.html" />
+   </frameset>
+     <frame marginheight="0" marginwidth="10" scrolling="auto" name="untRe" src="tabelle.html" />
+   </frameset>
+</frameset>
+</html>
